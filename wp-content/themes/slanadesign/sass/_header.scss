@@ -1,0 +1,39 @@
+header {
+  margin: 0 auto;
+  display: block;
+  width: 83%;
+
+  .logo {
+    padding-top: 50px;
+  display: inline-block;
+
+  }
+  nav {
+    padding-top: 50px;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    margin-right: 0px;
+
+  ul{
+
+  li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+      padding-left: 10px;
+      vertical-align: top;
+      font-weight: 700;
+      &:first-child {
+       border-left: none;
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+}
