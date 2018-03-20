@@ -83,6 +83,26 @@ if ( ! function_exists( 'slanadesign_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'slanadesign_setup' );
 
+register_post_type("print", array(
+    "public" => true, // visible dans l'admin par les utilisateurs
+    "supports" => array('title', 'thumbnail','editor',), // définit les éléments à ajouter dans l'admin
+    "labels" => array(
+        'all_items' => __('print', 'slanadesign'),
+        'name' => __('print', 'slanadesign'),
+        'singular_name' => __('print', 'slanadesign'),
+    ),
+));
+
+register_post_type("web", array(
+    "public" => true, // visible dans l'admin par les utilisateurs
+    "supports" => array('title', 'thumbnail','editor',), // définit les éléments à ajouter dans l'admin
+    "labels" => array(
+        'all_items' => __('web', 'slanadesign'),
+        'name' => __('web', 'slanadesign'),
+        'singular_name' => __('web', 'slanadesign'),
+    ),
+));
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *

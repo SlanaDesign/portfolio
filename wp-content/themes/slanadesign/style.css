@@ -372,7 +372,7 @@ body {
 
 /* line 8, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_global.scss */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 
 /* Track */
@@ -451,24 +451,24 @@ header nav ul li a {
   overflow: hidden;
 }
 
-/* line 18, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
-.slick-dots {
-  list-style-type: none;
-}
-
 /* line 20, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
-.slick-dots li {
-  display: inline-block;
-}
-
-/* line 26, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un {
   margin: 0 auto;
   width: 80%;
   margin-bottom: 10%;
 }
 
-/* line 31, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+/* line 25, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+.slider_un .slick-dots {
+  list-style-type: none;
+}
+
+/* line 27, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+.slider_un .slick-dots li {
+  display: inline-block;
+}
+
+/* line 33, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un .slider_project {
   background-position: center;
   background-size: cover;
@@ -477,12 +477,12 @@ header nav ul li a {
   font-family: 'Playfair Display', serif;
 }
 
-/* line 38, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+/* line 40, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un div {
   text-align: left;
 }
 
-/* line 40, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+/* line 42, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un div .projet {
   position: absolute;
   top: 76%;
@@ -490,7 +490,7 @@ header nav ul li a {
   color: white;
 }
 
-/* line 47, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+/* line 49, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un div h2 {
   position: absolute;
   top: 80%;
@@ -500,7 +500,7 @@ header nav ul li a {
   font-weight: 300;
 }
 
-/* line 56, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+/* line 58, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un div h2 span {
   display: block;
   color: white;
@@ -509,7 +509,7 @@ header nav ul li a {
   padding-left: 10%;
 }
 
-/* line 66, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+/* line 68, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un div span.prix {
   position: absolute;
   top: 88%;
@@ -518,13 +518,38 @@ header nav ul li a {
   font-size: 25px;
 }
 
-/* line 75, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+/* line 77, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
 .slider_un div .lien {
   position: absolute;
   top: 90%;
   color: white;
   font-size: 12px;
   padding-left: 10%;
+}
+
+/* line 87, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+.slider_deux {
+  display: block;
+  width: 60%;
+  height: 490px;
+  box-shadow: 0px 2px 2px #000;
+}
+
+/* line 92, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+.slider_deux .slick-prev {
+  display: none !important;
+}
+
+/* line 95, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+.slider_deux .slick-next {
+  right: 100%;
+  top: 98%;
+}
+
+/* line 99, /Applications/MAMP/htdocs/portfolio/wp-content/themes/slanadesign/sass/_slider.scss */
+.slider_deux .slider_print {
+  background-position: center;
+  height: 490px;
 }
 
 /*# sourceMappingURL=../style.map */

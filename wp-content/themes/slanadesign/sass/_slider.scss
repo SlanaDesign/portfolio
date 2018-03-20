@@ -15,18 +15,20 @@
 
 }
 
-.slick-dots {
-  list-style-type: none;
-  li {
-    display: inline-block;
-  }
 
-}
 
 .slider_un {
   margin: 0 auto;
   width: 80%;
   margin-bottom: 10%;
+
+  .slick-dots {
+    list-style-type: none;
+    li {
+      display: inline-block;
+    }
+
+  }
 
   .slider_project {
     background-position: center;
@@ -79,5 +81,26 @@ span {
     font-size: 12px;
     padding-left: 10%;
   }
+}
+}
+
+.slider_deux {
+  display: block;
+  width: 60%;
+  height: 490px;
+  box-shadow: 0px 2px 2px #000;
+  .slick-prev{
+    display: none!important;
+  }
+  .slick-next{
+    right: 100%;
+    top: 98%;
+  }
+.slider_print{
+  background-position: center;
+  height: 490px;
+
+
+
 }
 }
